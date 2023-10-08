@@ -1,52 +1,19 @@
 <script>
-    import { onMount } from 'svelte';
-    import WorldClockCard from "../lib/components/WorldClockCard.svelte"
-
+    import WorldClockCard from "../lib/components/WorldClockCard.svelte";
+    import ContinentsData from '$lib/components/ContinentsData.svelte';
+    import { fetchedContinentsData } from '../lib/components/FetchedDataStore';
     let citiesAndContinents = [
     ["America" , "New_York"],
-    ["Europe" , "London"]
-    ]
-    let tempCity = "";
-    let tempContinent = "";   
+    ["Europe", "London"]]
     let continentsData = {};
+    fetchedContinentsData.subscribe((data) => {
+        continentsData = data;
+    })
+    let tempCity = "";
+    let tempContinent = "";
     let citiesOfSelectedContinent = [];
     let citySelectPlaceholder = "Please select a continent first";
     
-    async function fetchData() {
-    try {
-      const response = await fetch('https://worldtimeapi.org/api/timezone');
-      const data = await response.json();
-
-      // Iterate through the data and organize it into continents and cities
-      data.forEach(timezone => {
-        const parts = timezone.split('/');
-        const dataContinent = parts[0];
-        let dataCity;
-        if (parts.length>2){
-          dataCity = parts[1] + "/" + parts[2];
-        }
-        else{
-          dataCity = parts[1];
-        }
-        if ((dataCity == undefined) || (dataContinent == "Etc")) {
-          return;
-        }
-        // Create a continent entry if it doesn't exist
-        if (!continentsData[dataContinent]) {
-          continentsData[dataContinent] = [];
-        }
-
-        continentsData[dataContinent].push(dataCity);
-      });
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-    }
-    
-    // Fetch data when the component is mounted
-    onMount(() => {
-        fetchData();
-    });
     
 
     function handleContinentChange(event) {
@@ -69,7 +36,7 @@
 <div>
     Home Page
 </div>
-
+<ContinentsData></ContinentsData>
 <div class="clock-container">
     {#each citiesAndContinents as info}
       <WorldClockCard

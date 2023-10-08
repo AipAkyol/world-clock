@@ -4,21 +4,31 @@
     export let city;
     export let continent;
     let currentTime;
-    let isLoading = true; // Initialize as loading
-  
+    let parsedTime;
 
     function updateTime() {
       const newDate = new Date(currentTime)
       newDate.setSeconds(newDate.getSeconds()+1)
       currentTime = newDate;
+      const hours = currentTime.getHours()
+      const minutes = currentTime.getMinutes()
+      const seconds = currentTime.getSeconds()
+      parsedTime = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     }
   
     let interval;
     onMount(async () => {
       const response = await fetch(`https://worldtimeapi.org/api/timezone/${continent}/${city}`);
-      isLoading = false;
       const data = await response.json();
-      currentTime = new Date(data.datetime);
+      const [datePart, timePart] = data.datetime.split('T');
+      let timeWithoutOffset;
+      if (timePart.includes("-")) {
+        timeWithoutOffset = timePart.split('-')[0];
+      } else{
+        timeWithoutOffset = timePart.split("+")[0];
+      }
+      // Combine the date and time parts and create a new Date object
+      currentTime = new Date(`${datePart}T${timeWithoutOffset}`);
       interval = setInterval(updateTime, 1000);
     });
   
@@ -29,10 +39,10 @@
   
   <div class="clock"> <!-- Add class here -->
     <h2>Current time in {city.replace(/_/g, " ")}</h2>
-    {#if isLoading}
+    {#if !parsedTime}
       <p>Loading...</p>
     {:else}
-      <p>{currentTime}</p>
+      <p>{parsedTime}</p>
     {/if}
   </div>
   
