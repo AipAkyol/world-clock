@@ -26,15 +26,20 @@
     }
 
     function addNewCity() {
-        let tempArray = continentsAndCities.data;
+        let tempArray = [];
         continentsAndCities.subscribe((data) => {
             tempArray = data;
         })
+        const isCityAlreadyAdded = tempArray.some(([continent, city]) => {
+          return continent === tempContinent && city === tempCity;
+        });
+        if (isCityAlreadyAdded){
+          alert("City already added!");
+          return;
+        }
         tempArray.push([tempContinent,tempCity])
         continentsAndCities.set(tempArray);
     }
-
-    function hey(){console.log("hey")}
 
 </script>
 
@@ -57,6 +62,5 @@
 
 <button
   on:click={addNewCity}
-  on:click={hey}
   disabled={!tempCity}
 >Submit</button>
