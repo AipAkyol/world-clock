@@ -1,4 +1,15 @@
 import { writable } from 'svelte/store';
+import { browser } from '$app/environment';
 
-// Create a writable store to hold the fetched data
-export const continentsAndCities = writable([]);
+let initialArrayData = [];
+
+if (browser){
+    initialArrayData = JSON.parse(localStorage.getItem('storedContinentsAndCities')) || [];
+}
+
+export const continentsAndCities = writable(initialArrayData);
+
+if(browser){
+continentsAndCities.subscribe(($storedContinentsAndCities) => {
+    localStorage.setItem('storedContinentsAndCities', JSON.stringify($storedContinentsAndCities));
+});}
