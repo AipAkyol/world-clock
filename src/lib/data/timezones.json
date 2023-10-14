@@ -1,5 +1,6 @@
 {
-    "istanbul":3,
-    "amsterdam":2
-
+    "europe": {
+        "istanbul":3,
+        "amsterdam":2
+    }
 }

@@ -4,8 +4,8 @@
     import getTime from '$lib/getTime';
     export let city;
     export let continent;
-    let istanbulTime = getTime("istanbul");
-    let amsterdamTime = getTime("amsterdam");
+    let istanbulTime = getTime("europe","istanbul");
+    let amsterdamTime = getTime("europe","amsterdam");
     let currentTime;
     let parsedTime;
 
@@ -25,6 +25,7 @@
     onMount(async () => {
       const response = await fetch(`https://worldtimeapi.org/api/timezone/${continent}/${city}`);
       const data = await response.json();
+      console.log(data);
       const [datePart, timePart] = data.datetime.split('T');
       let timeWithoutOffset;
       if (timePart.includes("-")) {

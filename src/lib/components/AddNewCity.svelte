@@ -47,6 +47,7 @@
 
 <label for="continentSelect">Select a Continent:</label>
 <select id="continentSelect" bind:value={tempContinent} on:change={handleContinentChange}>
+  <option value="" disabled>Please select a continent</option>  
   {#each Object.keys(continentsData) as continent}
     <option value={continent}>{continent}</option>
   {/each}
