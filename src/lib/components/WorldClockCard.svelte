@@ -1,12 +1,17 @@
 <!-- Clock.svelte -->
 <script>
     import { onMount, onDestroy } from 'svelte';
+    import getTime from '$lib/getTime';
     export let city;
     export let continent;
+    let istanbulTime = getTime("istanbul");
+    let amsterdamTime = getTime("amsterdam");
     let currentTime;
     let parsedTime;
 
     function updateTime() {
+      istanbulTime = getTime("istanbul");
+      amsterdamTime = getTime("amsterdam");
       const newDate = new Date(currentTime)
       newDate.setSeconds(newDate.getSeconds()+1)
       currentTime = newDate;
@@ -36,7 +41,10 @@
       clearInterval(interval); // Cleanup the interval when the component is unmounted
     });
   </script>
-  
+  <div>
+    {istanbulTime}
+    {amsterdamTime}
+  </div>
   <div class="clock"> <!-- Add class here -->
     <h2>Current time in {city.replace(/_/g, " ")}</h2>
     {#if !parsedTime}

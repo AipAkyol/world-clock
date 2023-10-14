@@ -51,7 +51,7 @@
     <option value={continent}>{continent}</option>
   {/each}
 </select>
-
+<slot name="cityheader"></slot>
 <label for="citySelect">Select a City:</label>
 <select id="citySelect" bind:value={tempCity} disabled={!tempContinent}>
   <option value="" disabled>{citySelectPlaceholder}</option>

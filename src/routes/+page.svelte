@@ -24,8 +24,13 @@
       />
     {/each}
 </div>
-
-<AddNewCity></AddNewCity>
+<AddNewCity>
+    <div slot="cityheader">
+        <div style="background-color: aqua">
+            deneme
+        </div>
+        </div>
+</AddNewCity>
 <DeleteCities></DeleteCities>
 
 <style>
