@@ -1,9 +1,9 @@
 import timezones from "$lib/data/timezones.json";
 export default function getTime(continent, city){
     const date = new Date();
-    const localOffset = (-1) * (date.getTimezoneOffset()/60);
-    console.log(timezones[continent][city].rawOffset)
-    const timeOffset = timezones[continent][city].rawOffset;
-    date.setHours(date.getHours()-localOffset+timeOffset);
+    const localOffsetMilliseconds = (-1) * (date.getTimezoneOffset()) * 60 * 1000;
+    const timeOffsetMilliseconds = timezones[continent][city].rawOffset * 60 * 60 * 1000;
+    console.log(new Date(date.getTime()+ timeOffsetMilliseconds))
+    date.setTime(date.getTime() - localOffsetMilliseconds + timeOffsetMilliseconds);
     return date;
 }

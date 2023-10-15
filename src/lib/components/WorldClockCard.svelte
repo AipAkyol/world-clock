@@ -4,34 +4,20 @@
     import getTime from '$lib/getTime';
     export let city;
     export let continent;
-    let amsterdamTime = getTime("Europe","Amsterdam");
-    let currentTime;
+    let time = getTime(continent,city);
     let parsedTime;
 
     function updateTime() {
-      amsterdamTime = getTime("Europe","Amsterdam");
-      const newDate = new Date(currentTime)
-      newDate.setSeconds(newDate.getSeconds()+1)
-      currentTime = newDate;
-      const hours = currentTime.getHours()
-      const minutes = currentTime.getMinutes()
-      const seconds = currentTime.getSeconds()
+      time = getTime(continent,city);
+      const hours = time.getHours();
+      const minutes = time.getMinutes();
+      const seconds = time.getSeconds();
       parsedTime = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     }
   
     let interval;
     onMount(async () => {
-      const response = await fetch(`https://worldtimeapi.org/api/timezone/${continent}/${city}`);
-      const data = await response.json();
-      const [datePart, timePart] = data.datetime.split('T');
-      let timeWithoutOffset;
-      if (timePart.includes("-")) {
-        timeWithoutOffset = timePart.split('-')[0];
-      } else{
-        timeWithoutOffset = timePart.split("+")[0];
-      }
-      // Combine the date and time parts and create a new Date object
-      currentTime = new Date(`${datePart}T${timeWithoutOffset}`);
+      
       interval = setInterval(updateTime, 1000);
     });
   
@@ -39,10 +25,9 @@
       clearInterval(interval); // Cleanup the interval when the component is unmounted
     });
   </script>
-  <div>
-    {amsterdamTime}
-  </div>
-  <div class="clock"> <!-- Add class here -->
+  
+
+  <div class="clock">
     <h2>Current time in {city.replace(/_/g, " ")}</h2>
     {#if !parsedTime}
       <p>Loading...</p>

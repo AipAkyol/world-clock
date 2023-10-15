@@ -1,5 +1,4 @@
 <script>    
-    import ContinentsData from "$lib/components/ContinentsData.svelte";
     import WorldClockCard from "../lib/components/WorldClockCard.svelte";
     import AddNewCity from "$lib/components/AddNewCity.svelte";
     import { continentsAndCities } from "$lib/components/ContinentsAndCitiesStore";
@@ -11,7 +10,6 @@
     })
 </script>
 
-<ContinentsData></ContinentsData>
 <div>
     Home Page
 </div>
