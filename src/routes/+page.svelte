@@ -1,7 +1,7 @@
 <script>    
     import WorldClockCard from "../lib/components/WorldClockCard.svelte";
     import AddNewCity from "$lib/components/AddNewCity.svelte";
-    import { continentsAndCities } from "$lib/components/ContinentsAndCitiesStore";
+    import { continentsAndCities } from "$lib/stores/ContinentsAndCitiesStore";
     import DeleteCities from "$lib/components/DeleteCities.svelte";
 
     let clockCities = []

@@ -1,5 +1,5 @@
 <script>
-    import { continentsAndCities } from './ContinentsAndCitiesStore';
+    import { continentsAndCities } from '../stores/ContinentsAndCitiesStore';
     import timezones from "$lib/data/timezones.json";
     let tempCity = "";
     let tempContinent = "";

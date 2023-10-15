@@ -1,5 +1,5 @@
 <script>
-    import { continentsAndCities } from "$lib/components/ContinentsAndCitiesStore";
+    import { continentsAndCities } from "$lib/stores/ContinentsAndCitiesStore";
     import { browser } from '$app/environment';
 
     function deleteCities() {
