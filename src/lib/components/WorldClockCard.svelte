@@ -4,14 +4,12 @@
     import getTime from '$lib/getTime';
     export let city;
     export let continent;
-    let istanbulTime = getTime("europe","istanbul");
-    let amsterdamTime = getTime("europe","amsterdam");
+    let amsterdamTime = getTime("Europe","Amsterdam");
     let currentTime;
     let parsedTime;
 
     function updateTime() {
-      istanbulTime = getTime("istanbul");
-      amsterdamTime = getTime("amsterdam");
+      amsterdamTime = getTime("Europe","Amsterdam");
       const newDate = new Date(currentTime)
       newDate.setSeconds(newDate.getSeconds()+1)
       currentTime = newDate;
@@ -25,7 +23,6 @@
     onMount(async () => {
       const response = await fetch(`https://worldtimeapi.org/api/timezone/${continent}/${city}`);
       const data = await response.json();
-      console.log(data);
       const [datePart, timePart] = data.datetime.split('T');
       let timeWithoutOffset;
       if (timePart.includes("-")) {
@@ -43,7 +40,6 @@
     });
   </script>
   <div>
-    {istanbulTime}
     {amsterdamTime}
   </div>
   <div class="clock"> <!-- Add class here -->

@@ -5,6 +5,7 @@
     let continentsData = {};
     fetchedContinentsData.subscribe((data) => {
         continentsData = data;
+        console.log(continentsData);
     })
     
     

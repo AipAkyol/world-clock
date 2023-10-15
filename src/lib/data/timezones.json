@@ -1,6 +1,1886 @@
 {
-    "europe": {
-        "istanbul":3,
-        "amsterdam":2
+    "Africa": {
+        "Abidjan": {
+            "rawOffset": 0.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Algiers": {
+            "rawOffset": 1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Bissau": {
+            "rawOffset": 0.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Cairo": {
+            "rawOffset": 2.0,
+            "dstStart": "04-27",
+            "dstEnd": "10-26",
+            "dstOffset": 1.0
+        },
+        "Casablanca": {
+            "rawOffset": 1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Ceuta": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "El_Aaiun": {
+            "rawOffset": 1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Johannesburg": {
+            "rawOffset": 2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Juba": {
+            "rawOffset": 2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Khartoum": {
+            "rawOffset": 2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Lagos": {
+            "rawOffset": 1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Maputo": {
+            "rawOffset": 2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Monrovia": {
+            "rawOffset": 0.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Nairobi": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Ndjamena": {
+            "rawOffset": 1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Sao_Tome": {
+            "rawOffset": 0.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tripoli": {
+            "rawOffset": 2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tunis": {
+            "rawOffset": 1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Windhoek": {
+            "rawOffset": 2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        }
+    },
+    "America": {
+        "Adak": {
+            "rawOffset": -10.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Anchorage": {
+            "rawOffset": -9.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Araguaina": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Buenos_Aires": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Catamarca": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Cordoba": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Jujuy": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/La_Rioja": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Mendoza": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Rio_Gallegos": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Salta": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/San_Juan": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/San_Luis": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Tucuman": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Argentina/Ushuaia": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Asuncion": {
+            "rawOffset": -4.0,
+            "dstStart": "10-01",
+            "dstEnd": "03-24",
+            "dstOffset": 1.0
+        },
+        "Bahia": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Bahia_Banderas": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Barbados": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Belem": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Belize": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Boa_Vista": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Bogota": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Boise": {
+            "rawOffset": -7.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Cambridge_Bay": {
+            "rawOffset": -7.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Campo_Grande": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Cancun": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Caracas": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Cayenne": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Chicago": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Chihuahua": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Ciudad_Juarez": {
+            "rawOffset": -7.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Costa_Rica": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Cuiaba": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Danmarkshavn": {
+            "rawOffset": 0.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Dawson": {
+            "rawOffset": -7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Dawson_Creek": {
+            "rawOffset": -7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Denver": {
+            "rawOffset": -7.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Detroit": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Edmonton": {
+            "rawOffset": -7.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Eirunepe": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "El_Salvador": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Fort_Nelson": {
+            "rawOffset": -7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Fortaleza": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Glace_Bay": {
+            "rawOffset": -4.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Goose_Bay": {
+            "rawOffset": -4.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Grand_Turk": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Guatemala": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Guayaquil": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Guyana": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Halifax": {
+            "rawOffset": -4.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Havana": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Hermosillo": {
+            "rawOffset": -7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Indiana/Indianapolis": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Indiana/Knox": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Indiana/Marengo": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Indiana/Petersburg": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Indiana/Tell_City": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Indiana/Vevay": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Indiana/Vincennes": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Indiana/Winamac": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Inuvik": {
+            "rawOffset": -7.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Iqaluit": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Jamaica": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Juneau": {
+            "rawOffset": -9.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Kentucky/Louisville": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Kentucky/Monticello": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "La_Paz": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Lima": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Los_Angeles": {
+            "rawOffset": -8.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Maceio": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Managua": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Manaus": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Martinique": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Matamoros": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Mazatlan": {
+            "rawOffset": -7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Menominee": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Merida": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Metlakatla": {
+            "rawOffset": -9.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Mexico_City": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Miquelon": {
+            "rawOffset": -3.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Moncton": {
+            "rawOffset": -4.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Monterrey": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Montevideo": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "New_York": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Nome": {
+            "rawOffset": -9.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Noronha": {
+            "rawOffset": -2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "North_Dakota/Beulah": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "North_Dakota/Center": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "North_Dakota/New_Salem": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Nuuk": {
+            "rawOffset": -3.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Ojinaga": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Panama": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Paramaribo": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Phoenix": {
+            "rawOffset": -7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Port-au-Prince": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Porto_Velho": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Puerto_Rico": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Punta_Arenas": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Rankin_Inlet": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Recife": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Regina": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Resolute": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Rio_Branco": {
+            "rawOffset": -5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Santarem": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Santiago": {
+            "rawOffset": -4.0,
+            "dstStart": "09-03",
+            "dstEnd": "04-07",
+            "dstOffset": 1.0
+        },
+        "Santo_Domingo": {
+            "rawOffset": -4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Sao_Paulo": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Scoresbysund": {
+            "rawOffset": -1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Sitka": {
+            "rawOffset": -9.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "St_Johns": {
+            "rawOffset": -3.5,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Swift_Current": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tegucigalpa": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Thule": {
+            "rawOffset": -4.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Tijuana": {
+            "rawOffset": -8.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Toronto": {
+            "rawOffset": -5.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Vancouver": {
+            "rawOffset": -8.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Whitehorse": {
+            "rawOffset": -7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Winnipeg": {
+            "rawOffset": -6.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Yakutat": {
+            "rawOffset": -9.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        }
+    },
+    "Antarctica": {
+        "Casey": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Davis": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Macquarie": {
+            "rawOffset": 10.0,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Mawson": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Palmer": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Rothera": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Troll": {
+            "rawOffset": 0.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 2.0
+        }
+    },
+    "Asia": {
+        "Almaty": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Amman": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Anadyr": {
+            "rawOffset": 12.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Aqtau": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Aqtobe": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Ashgabat": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Atyrau": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Baghdad": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Baku": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Bangkok": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Barnaul": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Beirut": {
+            "rawOffset": 2.0,
+            "dstStart": "03-25",
+            "dstEnd": "10-28",
+            "dstOffset": 1.0
+        },
+        "Bishkek": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Chita": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Choibalsan": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Colombo": {
+            "rawOffset": 5.5,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Damascus": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Dhaka": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Dili": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Dubai": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Dushanbe": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Famagusta": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Gaza": {
+            "rawOffset": 2.0,
+            "dstStart": "04-29",
+            "dstEnd": "10-27",
+            "dstOffset": 1.0
+        },
+        "Hebron": {
+            "rawOffset": 2.0,
+            "dstStart": "04-29",
+            "dstEnd": "10-27",
+            "dstOffset": 1.0
+        },
+        "Ho_Chi_Minh": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Hong_Kong": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Hovd": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Irkutsk": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Jakarta": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Jayapura": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Jerusalem": {
+            "rawOffset": 2.0,
+            "dstStart": "03-24",
+            "dstEnd": "10-28",
+            "dstOffset": 1.0
+        },
+        "Kabul": {
+            "rawOffset": 4.5,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kamchatka": {
+            "rawOffset": 12.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Karachi": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kathmandu": {
+            "rawOffset": 5.75,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Khandyga": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kolkata": {
+            "rawOffset": 5.5,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Krasnoyarsk": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kuching": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Macau": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Magadan": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Makassar": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Manila": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Nicosia": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Novokuznetsk": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Novosibirsk": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Omsk": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Oral": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Pontianak": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Pyongyang": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Qatar": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Qostanay": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Qyzylorda": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Riyadh": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Sakhalin": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Samarkand": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Seoul": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Shanghai": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Singapore": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Srednekolymsk": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Taipei": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tashkent": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tbilisi": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tehran": {
+            "rawOffset": 3.5,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Thimphu": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tokyo": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tomsk": {
+            "rawOffset": 7.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Ulaanbaatar": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Urumqi": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Ust-Nera": {
+            "rawOffset": 10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Vladivostok": {
+            "rawOffset": 10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Yakutsk": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Yangon": {
+            "rawOffset": 6.5,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Yekaterinburg": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        }
+    },
+    "Atlantic": {
+        "Azores": {
+            "rawOffset": -1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Bermuda": {
+            "rawOffset": -4.0,
+            "dstStart": "03-12",
+            "dstEnd": "11-05",
+            "dstOffset": 1.0
+        },
+        "Canary": {
+            "rawOffset": 0.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Cape_Verde": {
+            "rawOffset": -1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Faroe": {
+            "rawOffset": 0.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Madeira": {
+            "rawOffset": 0.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "South_Georgia": {
+            "rawOffset": -2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Stanley": {
+            "rawOffset": -3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        }
+    },
+    "Australia": {
+        "Adelaide": {
+            "rawOffset": 9.5,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Brisbane": {
+            "rawOffset": 10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Broken_Hill": {
+            "rawOffset": 9.5,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Darwin": {
+            "rawOffset": 9.5,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Eucla": {
+            "rawOffset": 8.75,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Hobart": {
+            "rawOffset": 10.0,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Lindeman": {
+            "rawOffset": 10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Lord_Howe": {
+            "rawOffset": 10.5,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 0.5
+        },
+        "Melbourne": {
+            "rawOffset": 10.0,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Perth": {
+            "rawOffset": 8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Sydney": {
+            "rawOffset": 10.0,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        }
+    },
+    "Europe": {
+        "Amsterdam": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Andorra": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Astrakhan": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Athens": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Belgrade": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Berlin": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Brussels": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Bucharest": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Budapest": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Chisinau": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Dublin": {
+            "rawOffset": 1.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Gibraltar": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Helsinki": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Istanbul": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kaliningrad": {
+            "rawOffset": 2.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kirov": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kyiv": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Lisbon": {
+            "rawOffset": 0.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "London": {
+            "rawOffset": 0.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Madrid": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Malta": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Minsk": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Moscow": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Paris": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Prague": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Riga": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Rome": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Samara": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Saratov": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Simferopol": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Sofia": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Tallinn": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Tirane": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Ulyanovsk": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Vienna": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Vilnius": {
+            "rawOffset": 2.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Volgograd": {
+            "rawOffset": 3.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Warsaw": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        },
+        "Zurich": {
+            "rawOffset": 1.0,
+            "dstStart": "03-26",
+            "dstEnd": "10-29",
+            "dstOffset": 1.0
+        }
+    },
+    "Indian": {
+        "Chagos": {
+            "rawOffset": 6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Maldives": {
+            "rawOffset": 5.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Mauritius": {
+            "rawOffset": 4.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        }
+    },
+    "Pacific": {
+        "Apia": {
+            "rawOffset": 13.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Auckland": {
+            "rawOffset": 12.0,
+            "dstStart": "09-23",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Bougainville": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Chatham": {
+            "rawOffset": 12.75,
+            "dstStart": "09-23",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Easter": {
+            "rawOffset": -6.0,
+            "dstStart": "09-03",
+            "dstEnd": "04-07",
+            "dstOffset": 1.0
+        },
+        "Efate": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Fakaofo": {
+            "rawOffset": 13.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Fiji": {
+            "rawOffset": 12.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Galapagos": {
+            "rawOffset": -6.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Gambier": {
+            "rawOffset": -9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Guadalcanal": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Guam": {
+            "rawOffset": 10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Honolulu": {
+            "rawOffset": -10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kanton": {
+            "rawOffset": 13.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kiritimati": {
+            "rawOffset": 14.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kosrae": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Kwajalein": {
+            "rawOffset": 12.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Marquesas": {
+            "rawOffset": -9.5,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Nauru": {
+            "rawOffset": 12.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Niue": {
+            "rawOffset": -11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Norfolk": {
+            "rawOffset": 11.0,
+            "dstStart": "09-30",
+            "dstEnd": "04-06",
+            "dstOffset": 1.0
+        },
+        "Noumea": {
+            "rawOffset": 11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Pago_Pago": {
+            "rawOffset": -11.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Palau": {
+            "rawOffset": 9.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Pitcairn": {
+            "rawOffset": -8.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Port_Moresby": {
+            "rawOffset": 10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Rarotonga": {
+            "rawOffset": -10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tahiti": {
+            "rawOffset": -10.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tarawa": {
+            "rawOffset": 12.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        },
+        "Tongatapu": {
+            "rawOffset": 13.0,
+            "dstStart": "",
+            "dstEnd": "",
+            "dstOffset": 0
+        }
     }
 }
