@@ -6,3 +6,12 @@ export default function getTime(continent, city){
     date.setTime(date.getTime() - localOffsetMilliseconds + timeOffsetMilliseconds);
     return date;
 }
+
+function calculateDst(tempContinent, tempCity) {
+    let dstStart = timezones[tempContinent][tempCity].dstStart;
+    let dstEnd = timezones[tempContinent][tempCity].dstEnd;
+    const startMonth = Number(dstStart.slice(0,2));
+    const endMonth = Number(dstEnd.slice(0,2));
+    const currentMonth = (new Date()).getMonth;
+    const currentYear = (new Date()).getFullYear;
+}
