@@ -4,7 +4,7 @@
 </script>
 <Navigation></Navigation>
 <div class="main-container">
-<slot></slot>
+    <slot></slot>
 </div>
 <style>
     .main-container{margin: 10px 20px;}

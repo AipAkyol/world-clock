@@ -1,34 +1,23 @@
 <!-- Clock.svelte -->
 <script>
     import { onMount, onDestroy } from 'svelte';
+    import getTime from '$lib/getTime';
     export let city;
     export let continent;
-    let currentTime;
+    let time = getTime(continent,city);
     let parsedTime;
 
     function updateTime() {
-      const newDate = new Date(currentTime)
-      newDate.setSeconds(newDate.getSeconds()+1)
-      currentTime = newDate;
-      const hours = currentTime.getHours()
-      const minutes = currentTime.getMinutes()
-      const seconds = currentTime.getSeconds()
+      time = getTime(continent,city);
+      const hours = time.getHours();
+      const minutes = time.getMinutes();
+      const seconds = time.getSeconds();
       parsedTime = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     }
   
     let interval;
     onMount(async () => {
-      const response = await fetch(`https://worldtimeapi.org/api/timezone/${continent}/${city}`);
-      const data = await response.json();
-      const [datePart, timePart] = data.datetime.split('T');
-      let timeWithoutOffset;
-      if (timePart.includes("-")) {
-        timeWithoutOffset = timePart.split('-')[0];
-      } else{
-        timeWithoutOffset = timePart.split("+")[0];
-      }
-      // Combine the date and time parts and create a new Date object
-      currentTime = new Date(`${datePart}T${timeWithoutOffset}`);
+      
       interval = setInterval(updateTime, 1000);
     });
   
@@ -37,7 +26,8 @@
     });
   </script>
   
-  <div class="clock"> <!-- Add class here -->
+
+  <div class="clock">
     <h2>Current time in {city.replace(/_/g, " ")}</h2>
     {#if !parsedTime}
       <p>Loading...</p>

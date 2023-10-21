@@ -1,13 +1,6 @@
 <script>
-    import { fetchedContinentsData } from './FetchedDataStore';
-    import { continentsAndCities } from './ContinentsAndCitiesStore';
-
-    let continentsData = {};
-    fetchedContinentsData.subscribe((data) => {
-        continentsData = data;
-    })
-    
-    
+    import { continentsAndCities } from '../stores/ContinentsAndCitiesStore';
+    import timezones from "$lib/data/timezones.json";
     let tempCity = "";
     let tempContinent = "";
     let citiesOfSelectedContinent = [];
@@ -18,7 +11,10 @@
     function handleContinentChange(event) {
         tempContinent = event.target.value;
         // Enable the city select and populate it with cities of the selected continent
-        citiesOfSelectedContinent = continentsData[tempContinent] || [];
+        citiesOfSelectedContinent = [];
+        for (let city in timezones[tempContinent]) {
+          citiesOfSelectedContinent.push(city);
+        }
         tempCity = ''; // Reset selected city when the continent changes
 
         // Set the city select placeholder based on whether a continent is selected
@@ -47,11 +43,12 @@
 
 <label for="continentSelect">Select a Continent:</label>
 <select id="continentSelect" bind:value={tempContinent} on:change={handleContinentChange}>
-  {#each Object.keys(continentsData) as continent}
+  <option value="" disabled>Please select a continent</option>  
+  {#each Object.keys(timezones) as continent}
     <option value={continent}>{continent}</option>
   {/each}
 </select>
-
+<slot name="cityheader"></slot>
 <label for="citySelect">Select a City:</label>
 <select id="citySelect" bind:value={tempCity} disabled={!tempContinent}>
   <option value="" disabled>{citySelectPlaceholder}</option>
