@@ -10,6 +10,7 @@ if (browser){
 export const continentsAndCities = writable(initialArrayData);
 
 if(browser){
-continentsAndCities.subscribe(($storedContinentsAndCities) => {
-    localStorage.setItem('storedContinentsAndCities', JSON.stringify($storedContinentsAndCities));
-});}
+    continentsAndCities.subscribe(($storedContinentsAndCities) => {
+        localStorage.setItem('storedContinentsAndCities', JSON.stringify($storedContinentsAndCities));
+    });
+} 
